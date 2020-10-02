@@ -8,9 +8,7 @@ from keras.models import Sequential
 from keras.models import load_model
 from keras.preprocessing.image import ImageDataGenerator
 from keras.preprocessing.image import img_to_array
-from flask import request
-from flask import jsonify
-from flask import Flask
+from flask import request,jsonify,Flask
 app = Flask(__name__)
 
 def get_model():
